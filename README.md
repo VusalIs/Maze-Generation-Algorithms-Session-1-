@@ -6,7 +6,7 @@ This repository is the second [session of Maze Generation Algorithms](https://gi
 
 -   [Demo](#demo)
 -   [What is Depth First Search?](#What-is-Depth-First-Search)
--   [How you can implement Depth First Search with Backtracking for maze generation?](#How-you-can-implement Depth-First-Search-with-Backtracking-for-maze-generation?)
+-   [How you can implement Depth First Search with Backtracking for maze generation?](#How-you-can-implement Depth-First-Search-with-Backtracking-for-maze-generation)
 -   [What is the code implementation?](#What-is-the-code-implementation?)
 -   [Thanks for your attention](#Thanks-for-your-attention)
 
@@ -14,15 +14,15 @@ This repository is the second [session of Maze Generation Algorithms](https://gi
 
 This repository has all codes which I have used in the demo. You are Welcome to pull this repository and explore or edit it. Additionally, If you want to see live demo you can use following link:
 
-![Demo](demos/demo)
+![Demo](demos/demo.gif)
 
 # What is Depth First Search?
 
-Depth First Search is algorithm to search or traverse in a tree or graph data structures. For finding two nodes are connected or not the algorithm ask its left/right node if it is the second node or not. This process recursively continues till the left/right most leaf(last element). After that, If the second node is not found, it goes one step back and try to find second node right/left child. This process continues till finding the second node. You can find detailed information in the following link(https://brilliant.org/wiki/depth-first-search-dfs/). As you see, this algorithm is not so useful for maze generation because we will get the same results if we start from the same point. That is why, we will change this algorithm slightly.
+Depth First Search is algorithm to search or traverse in a tree or graph data structures. For finding two nodes are connected or not, the algorithm asks its left/right node if it is the second node or not. This process recursively continues till you reach the left/right most leaf(last element). After that, If the second node is not found, it goes one step back and try to find second node right/left child. This process continues till finding the second node. You can find detailed information in the following link(https://brilliant.org/wiki/depth-first-search-dfs/). As you see, this algorithm is not so useful for maze generation because we will get the same results if we start from the same point. That is why, we will change this algorithm slightly.
 
 # How you can implement Depth First Search with Backtracking for maze generation?
 
-As you see, Depth First Search has many disadvantages for maze generation, that is why we will slightly change algorithm. The first problem is randomness. In depth first search we start from left or right node, but if we want to create a complex maze, we have to add a randomness. Because of that, instead of choosing next node static direction, we will randomly choose the next node. Another problem is recursion. If we want to create large maze, the algorithm will reach large depth of recursion. Avoiding this problem, we will use stack and store all path in this stack instead of recursion. Our algorithm will work based on following order:
+As you see, Depth First Search has many disadvantages for maze generation, that is why we will slightly change algorithm. The first problem is randomness. In depth first search we start from left or right node, but if we want to create a complex maze, we have to add a randomness. Because of that, instead of choosing next node in the static direction, we will randomly choose the next node. Another problem is recursion. If we want to create large maze, the algorithm will reach large depth of recursion. Avoiding this problem, we will use stack and store all path in this stack instead of recursion. Our algorithm will work based on following order:
 
 1. Choose the initial cell, mark it as visited and push it to the stack
 1. While the stack is not empty
