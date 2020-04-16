@@ -7,7 +7,7 @@ This repository is the second [session of Maze Generation Algorithms](https://gi
 -   [Demo](#demo)
 -   [What is Depth First Search?](#What-is-Depth-First-Search)
 -   [How you can implement Depth First Search with Backtracking for maze generation?](#How-you-can-implement-Depth-First-Search-with-Backtracking-for-maze-generation)
--   [What is the code implementation?](#What-is-the-code-implementationn)
+-   [What is the code implementation?](#What-is-the-code-implementation)
 -   [Thanks for your attention](#Thanks-for-your-attention)
 
 # Demo
