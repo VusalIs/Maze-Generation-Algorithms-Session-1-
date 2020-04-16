@@ -6,13 +6,13 @@ This repository is the second [session of Maze Generation Algorithms](https://gi
 
 -   [Demo](#demo)
 -   [What is Depth First Search?](#What-is-Depth-First-Search)
--   [How you can implement Depth First Search with Backtracking for maze generation?](#How-you-can-implement Depth-First-Search-with-Backtracking-for-maze-generation)
+-   [How you can implement Depth First Search with Backtracking for maze generation?](#How-you-can-implement-Depth-First-Search-with-Backtracking-for-maze-generation)
 -   [What is the code implementation?](#What-is-the-code-implementation?)
 -   [Thanks for your attention](#Thanks-for-your-attention)
 
 # Demo
 
-This repository has all codes which I have used in the demo. You are Welcome to pull this repository and explore or edit it. Additionally, If you want to see live demo you can use following link:
+This repository has all codes which I have used in the demo. You are Welcome to pull this repository and explore or edit it. Additionally, If you want to see live demo you can use following link: https://vusalis.github.io/Maze-Generation-Algorithms-Session-1-/
 
 ![Demo](demos/demo.gif)
 
